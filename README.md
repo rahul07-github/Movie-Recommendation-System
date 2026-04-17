@@ -145,7 +145,7 @@ The UI fetches from FastAPI endpoints, renders movie cards in responsive grids, 
 ### Prerequisites
 
 - Python **3.10.11** (as specified in `runtime.txt`)
-- A free [TMDB API key](https://www.themoviedb.org/settings/api)
+- A free TMDB API key
 - `pip` and optionally `virtualenv`
 
 ---
