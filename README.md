@@ -191,8 +191,6 @@ Create a `.env` file in the root directory:
 TMDB_API_KEY=your_tmdb_api_key_here
 ```
 
-> 🔑 Get your free API key at [themoviedb.org/settings/api](https://www.themoviedb.org/settings/api)
-
 ---
 
 ### 5. Build the NLP Model (if pkl files are missing)
@@ -220,9 +218,9 @@ This generates:
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 
-The API will be live at: `http://localhost:8000`
+The API will be live at: `http://localhost:7000`
 
-Interactive docs: `http://localhost:8000/docs`
+Interactive docs: `http://localhost:8000/
 
 ---
 
@@ -234,7 +232,7 @@ Open a **new terminal** (keep the FastAPI server running):
 streamlit run app.py
 ```
 
-The app will open at: `http://localhost:8501`
+The app will open at: `http://localhost:5885
 
 ---
 
@@ -360,19 +358,15 @@ http://localhost:8000
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License** — feel free to use, modify, and distribute.
-
 ---
 
 ## 📬 Contact
 
 **Your Name**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/YOUR_PROFILE)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github)](https://github.com/YOUR_USERNAME)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail)](mailto:your.email@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/rahuljha8878/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github)](https://github.com/rahul07-github)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail)](rahulkumarjha9643@gmail.com)
 
 > 💬 *Feel free to open an issue or reach out if you have questions, suggestions, or just want to talk movies!*
 
