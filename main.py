@@ -182,7 +182,7 @@ async def tmdb_search_first(query: str) -> Optional[dict]:
 
 
 # =========================
-# TF-IDF Helpers
+# ==================================== TF-IDF =======================
 # =========================
 def build_title_to_idx_map(indices: Any) -> Dict[str, int]:
     """
@@ -277,7 +277,7 @@ async def attach_tmdb_card_by_title(title: str) -> Optional[TMDBMovieCard]:
 
 
 # =========================
-# STARTUP: LOAD PICKLES
+# =============================STARTUP: LOAD PICKLES Files =================
 # =========================
 @app.on_event("startup")
 def load_pickles():
@@ -310,6 +310,9 @@ def load_pickles():
 # =========================
 # ROUTES
 # =========================
+
+## ================== Get Endpoints ==================== 
+
 @app.get("/health")
 def health():
     return {"status": "ok"}
