@@ -12,7 +12,7 @@ warnings.filterwarnings("ignore")
 # =============================
 # CONFIG
 # =============================
-API_BASE = "https://movie-rec-466x.onrender.com" or "http://127.0.0.1:8000"
+API_BASE = "https://movie-recommendation-system-6-t0c7.onrender.com"
 TMDB_IMG = "https://image.tmdb.org/t/p/w500"
 
 st.set_page_config(page_title="CineMatch | Movie Recommender", page_icon="🎬", layout="wide")
@@ -851,7 +851,7 @@ elif st.session_state.view == "details":
     with left:
         if data.get("poster_url"):
             st.markdown("<div class='detail-poster-wrap'>", unsafe_allow_html=True)
-            st.image(data["poster_url"], width="stretch")
+            st.image(data["poster_url"])
             st.markdown("</div>", unsafe_allow_html=True)
         else:
             st.markdown(
@@ -885,7 +885,7 @@ elif st.session_state.view == "details":
     # ── Backdrop ──────────────────────────────────────────
     if data.get("backdrop_url"):
         st.markdown("<div class='backdrop-wrap'>", unsafe_allow_html=True)
-        st.image(data["backdrop_url"], width="stretch")
+        st.image(data["backdrop_url"])
         st.markdown("</div>", unsafe_allow_html=True)
 
     st.divider()
